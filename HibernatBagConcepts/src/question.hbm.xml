@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="com.xyz.Question" table="q101">
+<id name="id">
+<generator class="increment"></generator>
+</id>
+<property name="qname"></property>
+<bag name="answers" table="ans101">
+<key column="qid"></key>
+<element column="answers" type="string"></element>
+</bag>
+</class>
+</hibernate-mapping>
