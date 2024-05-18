@@ -1,0 +1,8 @@
+CREATE DATABASE mydatabase;
+
+GRANT ALL PRIVILEGES ON mydatabase.* TO 'root'@'localhost';
+FLUSH PRIVILEGES;
+
+create table Student (id bigint not null auto_increment, age integer not null, name varchar(255), primary key (id));
+
+select * from student;
