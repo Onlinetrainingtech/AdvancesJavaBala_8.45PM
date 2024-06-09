@@ -16,10 +16,10 @@ public class App {
         em.getTransaction().begin();
         
         Student student = new Student();
-        student.setName("Azar");
+        student.setName("Mohamed");
 
         LibraryCard libraryCard = new LibraryCard();
-        libraryCard.setCardNumber("LC123456");
+        libraryCard.setCardNumber("LC123457");
 
         // Set the bidirectional relationship
         student.setLibraryCard(libraryCard);
