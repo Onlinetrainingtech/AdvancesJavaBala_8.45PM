@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="str.Product" table="productcriteria">
+<id name="productId" column="pid"></id>
+<property name="proName" column="pname" length="10"></property>
+<property name="price"></property>
+</class>
+</hibernate-mapping>
