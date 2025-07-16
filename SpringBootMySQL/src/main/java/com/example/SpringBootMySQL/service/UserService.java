@@ -14,9 +14,6 @@ import org.springframework.stereotype.Service;
 
 import com.example.SpringBootMySQL.model.User;
 import com.example.SpringBootMySQL.repository.UserRepository;
-
-
-
 @Service
 public class UserService implements UserRepository
 {

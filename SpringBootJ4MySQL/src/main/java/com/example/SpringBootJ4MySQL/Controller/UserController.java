@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.SpringBootJ4MySQL.model.User;
 import com.example.SpringBootJ4MySQL.service.UserService;
 
+
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
